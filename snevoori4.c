@@ -26,20 +26,29 @@ int main(void)
 	scanf("%f", &f);
 
 	if(x > 1){
-		printf("Integer variable is greater than 1\n");
+		printf("Integer variable is greater than 1.\n");
 
+	}else{
+		printf("Integer variable is not greater than 1.\n");
 	}
 
-	if (d == 3.14){
-		printf("Double variable is equal to 3.14\n");
+	if (d >= 10.0){
+		printf("Double variable is greater than or equal to 10.0.\n");
+	}
+	else{
+		printf("Double variable is less than 10.0.\n");
 	}
 
 	if(c != 'a'){
-		printf("Character variable does not equal the letter a\n");
+		printf("Character variable does not equal the letter 'a'.\n");
+	}else{
+		printf("Character variable equals the letter 'a'.\n");
 	}
 
-	if(f < 0.0){
-		printf("Float variable is less than 0.0\n");
+	if(f < 5.0){
+		printf("Float variable is less than 5.0.\n");
+	}else{
+		printf("Float variable is not less than 5.0.\n");
 	}
 
 	return 0;
